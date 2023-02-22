@@ -5,6 +5,7 @@ Dogs vs Cats dataset is a standard computer vision dataset in deep learning for 
 In this project tutorial we will use Convolutional Neural Network (CNN) for image feature extraction and visualise the results with plot graphs.
 
 In this project we used the dataset below : 
+
 https://www.kaggle.com/competitions/dogs-vs-cats/data
 
 1.IMPORTING PACKAGES : 
@@ -36,6 +37,7 @@ In large AI projects we divide the dataset into validation dataset , train datas
 
 10.GENERATING IMAGES IN TRAIN SET AND TEST SET : 
 The goal of this step is to avoid from Overfitting , Overfitting is an expression in Machine learning which is explained completely in the below link 
+
 https://www.ibm.com/topics/overfitting
 
 11.DEFINING MODEL THROUGH ADDING LAYERS AND CHOOSING ACTIVATION FUNCTION : 
