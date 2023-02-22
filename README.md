@@ -9,18 +9,25 @@ https://www.kaggle.com/competitions/dogs-vs-cats/data
 
 1.IMPORTING PACKAGES : 
 The first step is importing necessary packages in order to file handling , implementing CNNs , plating data and results etc.
+
 2.CREATING INPUT_PATH AND LABEL INORDER TO INTEGRATE THOSE TWO INTO A DATAFRAME : 
 Here we import the dataset which is downloaded through the mentioned link above.
+
 3.CREATING DATA FRAME : 
 We use a data frame in order to integrate the name of the files and their labels. 
+
 4.DETECTING NON-JPG FILES IN DATASET : 
 Data cleaning is a vital step in our project , remember that we can’t train our model with broken images.
+
 5.DELETE DETECTED FILES : 
 Here we delete the detected files in the previous step (4) in order to reach a clean dataset.
+
 6.DISPLAY SOME IMAGES IN DATASET FOLDER USING MATPLOTLIB : 
 Visualising the dataset helps us to have a better intuition about the project , it’s not a necessary step but in my experience it will be helpful.
+
 7.PLOTTING BAR GRAPH OF CLASSES COUNT : 
 Plotting statistics of our dataset helps us to have a better vision about the mathematical side  of our data it will be very helpful specially in vast and complicated datasets.
+
 8.PRINTING FINAL DATA FRAME : 
 Here we check the data frame and make sure it has no issue
 9.DIVIDE DATASET INTO TRAIN SET AND TEST SET : 
